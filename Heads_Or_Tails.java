@@ -24,5 +24,8 @@ public class Heads_Or_Tails{
 
         System.out.println("Heads: " + count_H + ", Tails: " + count_T);
 
+	if(count_H > count_T) System.out.println(name + " won!");
+	else System.out.println(name + " lost.");
+
    }
 }
