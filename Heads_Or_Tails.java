@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Random;
 
 public class Heads_Or_Tails{
@@ -7,6 +8,15 @@ public class Heads_Or_Tails{
         int count_H = 0;
         int count_T = 0;
         Random random = new Random();
+	Scanner sc = new Scanner(System.in);
+
+	System.out.println("Who are you?");
+	System.out.print("> ");
+
+	String name = sc.next();
+
+	System.out.println("Hello, " + name + "!");
+	sc.close();
 
         System.out.println("Tossing a coin...");
 
