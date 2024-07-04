@@ -10,6 +10,7 @@ public class Heads_Or_Tails{
         Random random = new Random();
 	Scanner sc = new Scanner(System.in);
 
+
 	System.out.println("Who are you?");
 	System.out.print("> ");
 
